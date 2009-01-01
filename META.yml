@@ -1,0 +1,39 @@
+---
+name: Perl-Critic-Deprecated
+version: 1.094
+author:
+  - 'Elliot Shank <perl@galumph.com>'
+abstract: 'Policies that were formally included with Perl::Critic itself, but which have been superseded by others.'
+license: perl
+resources:
+  MailingList: http://perlcritic.tigris.org/servlets/SummarizeList?listName=users
+  Repository: http://guest@perlcritic.tigris.org/svn/perlcritic/trunk/Perl-Critic-Deprecated/
+  homepage: http://perlcritic.com
+  license: http://dev.perl.org/licenses/
+requires:
+  Perl::Critic::Policy: 1.094
+  Perl::Critic::Utils: 1.094
+  Readonly: 0
+  base: 0
+  strict: 0
+  warnings: 0
+build_requires:
+  Carp: 0
+  English: 0
+  Perl::Critic::TestUtils: 1.094
+  Test::More: 0
+dynamic_config: 0
+provides:
+  Perl::Critic::Deprecated:
+    file: lib/Perl/Critic/Deprecated.pm
+    version: 1.094
+  Perl::Critic::Policy::NamingConventions::ProhibitMixedCaseSubs:
+    file: lib/Perl/Critic/Policy/NamingConventions/ProhibitMixedCaseSubs.pm
+    version: 1.094
+  Perl::Critic::Policy::NamingConventions::ProhibitMixedCaseVars:
+    file: lib/Perl/Critic/Policy/NamingConventions/ProhibitMixedCaseVars.pm
+    version: 1.094
+generated_by: Module::Build version 0.31
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2

@@ -1,0 +1,23 @@
+Build.PL
+Changes
+lib/Perl/Critic/Deprecated.pm
+lib/Perl/Critic/Policy/NamingConventions/ProhibitMixedCaseSubs.pm
+lib/Perl/Critic/Policy/NamingConventions/ProhibitMixedCaseVars.pm
+Makefile.PL
+MANIFEST			This list of files
+META.yml
+README
+t/NamingConventions/ProhibitMixedCaseSubs.run
+t/NamingConventions/ProhibitMixedCaseVars.run
+t/policies.t
+xt/author/consistent_version_numbers.t
+xt/author/copyright.t
+xt/author/distribution.t
+xt/author/kwalitee.t
+xt/author/perlcritic-code.t
+xt/author/perlcritic-tests.t
+xt/author/perlcriticrc-code
+xt/author/perlcriticrc-tests
+xt/author/pod_coverage.t
+xt/author/pod_syntax.t
+xt/author/README
