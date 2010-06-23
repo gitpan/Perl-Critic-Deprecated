@@ -3,9 +3,8 @@ Changes
 lib/Perl/Critic/Deprecated.pm
 lib/Perl/Critic/Policy/NamingConventions/ProhibitMixedCaseSubs.pm
 lib/Perl/Critic/Policy/NamingConventions/ProhibitMixedCaseVars.pm
-Makefile.PL
+lib/Perl/Critic/Utils/PPIRegexp.pm
 MANIFEST			This list of files
-META.yml
 README
 t/NamingConventions/ProhibitMixedCaseSubs.run
 t/NamingConventions/ProhibitMixedCaseVars.run
@@ -21,3 +20,5 @@ xt/author/perlcriticrc-tests
 xt/author/pod_coverage.t
 xt/author/pod_syntax.t
 xt/author/README
+Makefile.PL
+META.yml

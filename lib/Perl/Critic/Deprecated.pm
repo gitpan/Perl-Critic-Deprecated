@@ -1,7 +1,7 @@
 #      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/distributions/Perl-Critic-Deprecated/lib/Perl/Critic/Deprecated.pm $
-#     $Date: 2009-01-01 13:01:42 -0600 (Thu, 01 Jan 2009) $
+#     $Date: 2010-06-23 15:20:17 -0400 (Wed, 23 Jun 2010) $
 #   $Author: clonezone $
-# $Revision: 2939 $
+# $Revision: 3851 $
 
 package Perl::Critic::Deprecated;
 
@@ -10,13 +10,13 @@ use 5.006001;
 use strict;
 use warnings;
 
-our $VERSION = '1.094';
+our $VERSION = '1.108';
 
 1; # Magic true value required at end of module
 
 __END__
 
-=for stopwords
+=for stopwords perlartistic
 
 =head1 NAME
 
@@ -33,14 +33,14 @@ grouping.
 
 =head1 VERSION
 
-This document describes Perl::Critic::Deprecated version 1.094.
+This document describes Perl::Critic::Deprecated version 1.108.
 
 
 =head1 SYNOPSIS
 
-Some L<Perl::Critic> policies have had their functionality superseded by
-others and thus merely slow things down when analyzing code.  They are put
-here in case anyone wants to still use them.
+Some L<Perl::Critic|Perl::Critic> policies have had their functionality
+superseded by others and thus merely slow things down when analyzing code.
+They are put here in case anyone wants to still use them.
 
 
 =head1 DESCRIPTION
@@ -75,12 +75,12 @@ None.  This is nothing but documentation.
 =head1 CONFIGURATION AND ENVIRONMENT
 
 All policies included are in the "deprecated" theme.  See the
-L<Perl::Critic> documentation for how to make use of this.
+L<Perl::Critic|Perl::Critic> documentation for how to make use of this.
 
 
 =head1 DEPENDENCIES
 
-L<Perl::Critic>
+L<Perl::Critic|Perl::Critic>
 
 
 =head1 INCOMPATIBILITIES
@@ -104,11 +104,11 @@ Elliot Shank  C<< <perl@galumph.com> >>
 
 =head1 COPYRIGHT
 
-Copyright (c) 2008-2009, Elliot Shank C<< <perl@galumph.com> >>. Some
+Copyright (c) 2008-2010, Elliot Shank C<< <perl@galumph.com> >>. Some
 rights reserved.
 
 This module is free software; you can redistribute it and/or modify it
-under the same terms as Perl itself. See L<perlartistic>.
+under the same terms as Perl itself. See L<perlartistic|perlartistic>.
 
 
 =head1 DISCLAIMER OF WARRANTY

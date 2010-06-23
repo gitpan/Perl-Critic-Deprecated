@@ -1,8 +1,8 @@
 ##############################################################################
 #      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/distributions/Perl-Critic-Deprecated/xt/author/perlcriticrc-code $
-#     $Date: 2008-12-21 13:50:35 -0600 (Sun, 21 Dec 2008) $
+#     $Date: 2010-06-23 15:20:17 -0400 (Wed, 23 Jun 2010) $
 #   $Author: clonezone $
-# $Revision: 2921 $
+# $Revision: 3851 $
 ##############################################################################
 
 profile-strictness = quiet
@@ -26,6 +26,8 @@ stop_words = accessor accessors autoflushes AUTOLOAD backticks bareword bareword
 [Documentation::RequirePodSections]
 lib_sections    = NAME|DESCRIPTION|AUTHOR|COPYRIGHT
 script_sections = NAME|DESCRIPTION|AUTHOR|COPYRIGHT
+
+[-ErrorHandling::RequireUseOfExceptions]
 
 [InputOutput::RequireCheckedSyscalls]
 functions = open close

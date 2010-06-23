@@ -1,9 +1,9 @@
 #!/usr/bin/env perl
 
 #      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/distributions/Perl-Critic-Deprecated/xt/author/copyright.t $
-#     $Date: 2008-12-21 13:50:35 -0600 (Sun, 21 Dec 2008) $
+#     $Date: 2010-06-23 15:20:17 -0400 (Wed, 23 Jun 2010) $
 #   $Author: clonezone $
-# $Revision: 2921 $
+# $Revision: 3851 $
 
 # Taken from
 # http://www.chrisdolan.net/talk/index.php/2005/11/14/private-regression-tests/.
@@ -16,7 +16,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION = '1.001';
+our $VERSION = '1.108';
 
 use File::Find;
 use File::Slurp;
@@ -55,7 +55,7 @@ sub check_file {
                 |  .*/scripts/[^/]+  # programs
                 |  .*/script/[^/]+   # programs
                 |  .*/bin/[^/]+      # programs
-                |  .*\.(?:
+                |  .* [.] (?:
                             pl        # program ext
                         |   pm        # module ext
                         |   html      # doc ext

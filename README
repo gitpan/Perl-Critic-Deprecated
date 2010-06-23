@@ -1,4 +1,4 @@
-Perl-Critic-Deprecated version 1.094.
+Perl-Critic-Deprecated version 1.108.
 
 This distribution provides several Perl::Critic Policies that used to be part
 of the primary Perl::Critic distribution, but which have been superseded by
@@ -24,7 +24,7 @@ Runs extra tests that might not pass anywhere other than the author's computer.
 
 COPYRIGHT AND LICENCE
 
-Copyright (c) 2008-2009, Elliot Shank.  Some rights reserved.
+Copyright (c) 2008-2010, Elliot Shank.  Some rights reserved.
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.

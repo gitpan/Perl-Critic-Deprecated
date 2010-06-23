@@ -1,8 +1,8 @@
 ##############################################################################
 #      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/distributions/Perl-Critic-Deprecated/lib/Perl/Critic/Policy/NamingConventions/ProhibitMixedCaseSubs.pm $
-#     $Date: 2009-01-01 13:01:42 -0600 (Thu, 01 Jan 2009) $
+#     $Date: 2010-06-23 15:20:17 -0400 (Wed, 23 Jun 2010) $
 #   $Author: clonezone $
-# $Revision: 2939 $
+# $Revision: 3851 $
 ##############################################################################
 
 package Perl::Critic::Policy::NamingConventions::ProhibitMixedCaseSubs;
@@ -16,7 +16,7 @@ use Perl::Critic::Utils qw{ :severities };
 
 use base 'Perl::Critic::Policy';
 
-our $VERSION = '1.094';
+our $VERSION = '1.108';
 
 #-----------------------------------------------------------------------------
 
@@ -101,7 +101,7 @@ Jeffrey Ryan Thalhammer <thaljef@cpan.org>
 
 =head1 COPYRIGHT
 
-Copyright (c) 2005-2009 Jeffrey Ryan Thalhammer.  All rights reserved.
+Copyright (c) 2005-2010 Jeffrey Ryan Thalhammer.  All rights reserved.
 
 This program is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.  The full text of this license

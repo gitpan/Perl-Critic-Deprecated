@@ -1,5 +1,10 @@
 Revision history for Perl-Critic-Deprecated.
 
+[1.108]  2010-06-22
+
+    Moved Perl::Critic::Utils::PPIRegexp here from the main Perl-Critic
+    distribution.
+
 [1.094]  2009-01-01
 
     Initial release.

@@ -1,9 +1,9 @@
 #!/usr/bin/env perl
 
 #      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/distributions/Perl-Critic-Deprecated/xt/author/consistent_version_numbers.t $
-#     $Date: 2008-12-21 13:50:35 -0600 (Sun, 21 Dec 2008) $
+#     $Date: 2010-06-22 18:16:01 -0400 (Tue, 22 Jun 2010) $
 #   $Author: clonezone $
-# $Revision: 2921 $
+# $Revision: 3849 $
 
 # Taken from
 # http://www.chrisdolan.net/talk/index.php/2005/11/14/private-regression-tests/.
@@ -13,7 +13,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION = '1.001';
+our $VERSION = '1.108';
 
 use File::Find;
 use File::Slurp;

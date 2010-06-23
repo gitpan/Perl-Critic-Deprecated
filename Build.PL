@@ -1,9 +1,9 @@
 #!perl
 
 #      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/distributions/Perl-Critic-Deprecated/Build.PL $
-#     $Date: 2009-01-01 13:01:42 -0600 (Thu, 01 Jan 2009) $
+#     $Date: 2010-06-21 10:10:33 -0400 (Mon, 21 Jun 2010) $
 #   $Author: clonezone $
-# $Revision: 2939 $
+# $Revision: 3840 $
 
 use 5.006001;
 
@@ -84,7 +84,7 @@ my $builder = $class->new(
         resources   => {
             homepage    => 'http://perlcritic.com',
             license     => 'http://dev.perl.org/licenses/',
-            Repository  => 'http://guest@perlcritic.tigris.org/svn/perlcritic/trunk/Perl-Critic-Deprecated/',
+            repository  => 'http://guest@perlcritic.tigris.org/svn/perlcritic/trunk/distributions/Perl-Critic-Deprecated/',
             MailingList => 'http://perlcritic.tigris.org/servlets/SummarizeList?listName=users',
         }
     },
