@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
 
 #      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/distributions/Perl-Critic-Deprecated/xt/author/copyright.t $
-#     $Date: 2010-06-23 15:20:17 -0400 (Wed, 23 Jun 2010) $
+#     $Date: 2010-06-23 12:20:17 -0700 (Wed, 23 Jun 2010) $
 #   $Author: clonezone $
 # $Revision: 3851 $
 

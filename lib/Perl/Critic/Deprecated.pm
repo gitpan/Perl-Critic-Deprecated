@@ -1,7 +1,7 @@
 #      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/distributions/Perl-Critic-Deprecated/lib/Perl/Critic/Deprecated.pm $
-#     $Date: 2010-06-23 15:20:17 -0400 (Wed, 23 Jun 2010) $
-#   $Author: clonezone $
-# $Revision: 3851 $
+#     $Date: 2013-10-25 16:42:50 -0700 (Fri, 25 Oct 2013) $
+#   $Author: thaljef $
+# $Revision: 4202 $
 
 package Perl::Critic::Deprecated;
 
@@ -10,37 +10,37 @@ use 5.006001;
 use strict;
 use warnings;
 
-our $VERSION = '1.108';
+our $VERSION = '1.118';
 
 1; # Magic true value required at end of module
 
 __END__
 
-=for stopwords perlartistic
+=for stopwords perlartistic merchantability
 
 =head1 NAME
 
-Perl::Critic::Deprecated - Policies that were formally included with Perl::Critic itself, but which have been superseded by others.
+Perl::Critic::Deprecated - Policies and modules that were formally included with Perl::Critic itself, but which have been superseded by others.
 
 =head1 AFFILIATION
 
-This module has no functionality, but instead contains documentation
-for this distribution and acts as a means of pulling other modules
-into a bundle.  All of the Policy modules contained herein will have
-an "AFFILIATION" section announcing their participation in this
-grouping.
+This module has no functionality, but instead contains documentation for this
+distribution and acts as a means of pulling other modules into a bundle.  All
+of the Policy modules contained herein will have an "AFFILIATION" section
+announcing their participation in this grouping.
 
 
 =head1 VERSION
 
-This document describes Perl::Critic::Deprecated version 1.108.
+This document describes Perl::Critic::Deprecated version 1.118.
 
 
 =head1 SYNOPSIS
 
-Some L<Perl::Critic|Perl::Critic> policies have had their functionality
-superseded by others and thus merely slow things down when analyzing code.
-They are put here in case anyone wants to still use them.
+Some L<Perl::Critic|Perl::Critic> policies and modules have had their
+functionality superseded by others and thus merely slow things down when
+analyzing code. They are put here in case anyone still wants/needs to use
+them.
 
 
 =head1 DESCRIPTION
@@ -51,12 +51,12 @@ The included policies are:
 
 =item L<Perl::Critic::Policy::NamingConventions::ProhibitMixedCaseSubs|Perl::Critic::Policy::NamingConventions::ProhibitMixedCaseSubs>
 
-Write C<$my_variable = 42> instead of C<$MyVariable = 42>.  [Severity 1]
+Write C<$my_variable = 42> instead of C<$MyVariable = 42>.  [Default severity 1]
 
 
 =item L<Perl::Critic::Policy::NamingConventions::ProhibitMixedCaseVars|Perl::Critic::Policy::NamingConventions::ProhibitMixedCaseVars>
 
-Write C<sub my_function{}> instead of C<sub MyFunction{}>.  [Severity 1]
+Write C<sub my_function{}> instead of C<sub MyFunction{}>.  [Default severity 1]
 
 
 =back
@@ -104,7 +104,7 @@ Elliot Shank  C<< <perl@galumph.com> >>
 
 =head1 COPYRIGHT
 
-Copyright (c) 2008-2010, Elliot Shank C<< <perl@galumph.com> >>. Some
+Copyright (c) 2008-2013, Elliot Shank C<< <perl@galumph.com> >>. Some
 rights reserved.
 
 This module is free software; you can redistribute it and/or modify it

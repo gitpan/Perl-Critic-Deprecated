@@ -9,7 +9,7 @@ our ($FooBAR);
 
 #-----------------------------------------------------------------------------
 
-## name Failing vars, mixed with some passing ones 
+## name Failing vars, mixed with some passing ones
 ## failures 6
 ## cut
 
@@ -38,7 +38,7 @@ my ($foo_bar, $foo);
 
 #-----------------------------------------------------------------------------
 
-## name Variables from other packages should pass 
+## name Variables from other packages should pass
 ## failures 0
 ## cut
 

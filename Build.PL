@@ -1,9 +1,9 @@
 #!perl
 
 #      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/distributions/Perl-Critic-Deprecated/Build.PL $
-#     $Date: 2010-06-21 10:10:33 -0400 (Mon, 21 Jun 2010) $
-#   $Author: clonezone $
-# $Revision: 3840 $
+#     $Date: 2013-10-25 17:01:27 -0700 (Fri, 25 Oct 2013) $
+#   $Author: thaljef $
+# $Revision: 4208 $
 
 use 5.006001;
 
@@ -55,9 +55,13 @@ my $builder = $class->new(
     dist_author         => 'Elliot Shank <perl@galumph.com>',
     license             => 'perl',
     dynamic_config      => 0,
-    create_readme       => 0,
+    create_readme       => 1,
     create_packlist     => 1,
     sign                => 0,
+
+    configure_requires => {
+        'Module::Build'         => 0.40,
+    },
 
     requires            => {
         'base'                  => 0,
@@ -91,12 +95,9 @@ my $builder = $class->new(
 
     add_to_cleanup      => [
         qw<
-            MANIFEST
             MANIFEST.bak
-            META.yml
             Makefile
             Makefile.old
-            Makefile.PL
             pod2htm?.tmp
             pm_to_blib
             Perl-Critic-Deprecated-*

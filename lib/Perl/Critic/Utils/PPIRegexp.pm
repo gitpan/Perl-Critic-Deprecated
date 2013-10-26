@@ -1,8 +1,8 @@
 ##############################################################################
 #      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/distributions/Perl-Critic-Deprecated/lib/Perl/Critic/Utils/PPIRegexp.pm $
-#     $Date: 2010-06-22 18:16:01 -0400 (Tue, 22 Jun 2010) $
-#   $Author: clonezone $
-# $Revision: 3849 $
+#     $Date: 2013-10-25 16:42:50 -0700 (Fri, 25 Oct 2013) $
+#   $Author: thaljef $
+# $Revision: 4202 $
 ##############################################################################
 
 package Perl::Critic::Utils::PPIRegexp;
@@ -19,7 +19,7 @@ use PPI::Node;
 
 use base 'Exporter';
 
-our $VERSION = '1.108';
+our $VERSION = '1.118';
 
 #-----------------------------------------------------------------------------
 
@@ -345,7 +345,7 @@ Chris Dolan <cdolan@cpan.org>
 
 =head1 COPYRIGHT
 
-Copyright (c) 2007-2010 Chris Dolan.  Many rights reserved.
+Copyright (c) 2007-2013 Chris Dolan.  Many rights reserved.
 
 This program is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.  The full text of this license

@@ -1,8 +1,8 @@
 ##############################################################################
 #      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/distributions/Perl-Critic-Deprecated/lib/Perl/Critic/Policy/NamingConventions/ProhibitMixedCaseVars.pm $
-#     $Date: 2010-06-23 15:20:17 -0400 (Wed, 23 Jun 2010) $
-#   $Author: clonezone $
-# $Revision: 3851 $
+#     $Date: 2013-10-25 16:42:50 -0700 (Fri, 25 Oct 2013) $
+#   $Author: thaljef $
+# $Revision: 4202 $
 ##############################################################################
 
 package Perl::Critic::Policy::NamingConventions::ProhibitMixedCaseVars;
@@ -17,7 +17,7 @@ use Perl::Critic::Utils qw{ :severities };
 
 use base 'Perl::Critic::Policy';
 
-our $VERSION = '1.108';
+our $VERSION = '1.118';
 
 #-----------------------------------------------------------------------------
 
@@ -54,7 +54,7 @@ sub _has_mixed_case_vars {
         #because we can't really be responsible for symbols that
         #are defined in other packages.
 
-        next if $elem->type() eq 'local' && $variable_name =~ m/$PACKAGE_RX/xms;
+        next if 'local' eq $elem->type() && $variable_name =~ m/$PACKAGE_RX/xms;
         return 1 if $variable_name =~ m/$MIXED_RX/xms;
     }
     return 0;
@@ -114,7 +114,7 @@ Jeffrey Ryan Thalhammer <thaljef@cpan.org>
 
 =head1 COPYRIGHT
 
-Copyright (c) 2005-2010 Jeffrey Ryan Thalhammer.  All rights reserved.
+Copyright (c) 2005-2013 Jeffrey Ryan Thalhammer.  All rights reserved.
 
 This program is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.  The full text of this license

@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
 
 #      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/distributions/Perl-Critic-Deprecated/xt/author/pod_syntax.t $
-#     $Date: 2010-06-22 18:16:01 -0400 (Tue, 22 Jun 2010) $
+#     $Date: 2010-06-22 15:16:01 -0700 (Tue, 22 Jun 2010) $
 #   $Author: clonezone $
 # $Revision: 3849 $
 

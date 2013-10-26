@@ -1,9 +1,9 @@
 #!/usr/bin/env perl
 
 #      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/distributions/Perl-Critic-Deprecated/xt/author/consistent_version_numbers.t $
-#     $Date: 2010-06-22 18:16:01 -0400 (Tue, 22 Jun 2010) $
-#   $Author: clonezone $
-# $Revision: 3849 $
+#     $Date: 2013-10-25 16:51:38 -0700 (Fri, 25 Oct 2013) $
+#   $Author: thaljef $
+# $Revision: 4203 $
 
 # Taken from
 # http://www.chrisdolan.net/talk/index.php/2005/11/14/private-regression-tests/.
@@ -13,7 +13,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION = '1.108';
+our $VERSION = '1.118';
 
 use File::Find;
 use File::Slurp;
@@ -39,8 +39,14 @@ sub check_version {
     # only look at perl scripts, not sh scripts
     return if m{blib/script/}xms && $content !~ m/\A \#![^\r\n]+?perl/xms;
 
+    # RequireRcsKeywords has a $VERSION in POD for documentation purposes,
+    # but this test isn't smart enough to recognize that.  So we just skip
+    # that file.  These days, there are better tools on CPAN for testing
+    # VERSIONs, especially if using Dist::Zilla.
+    return if m{RequireRcsKeywords}xms;
+
     my @version_lines = $content =~ m/ ( [^\n]* \$VERSION [^\n]* ) /gxms;
-    if (@version_lines == 0) {
+    if (0 == @version_lines) {
        fail($_);
     } # end if
     foreach my $line (@version_lines) {

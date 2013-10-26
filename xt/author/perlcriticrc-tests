@@ -1,8 +1,8 @@
 ##############################################################################
 #      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/distributions/Perl-Critic-Deprecated/xt/author/perlcriticrc-tests $
-#     $Date: 2008-12-21 13:50:35 -0600 (Sun, 21 Dec 2008) $
+#     $Date: 2008-12-13 19:12:26 -0800 (Sat, 13 Dec 2008) $
 #   $Author: clonezone $
-# $Revision: 2921 $
+# $Revision: 2916 $
 ##############################################################################
 
 profile-strictness = quiet
