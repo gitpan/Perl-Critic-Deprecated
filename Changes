@@ -1,5 +1,12 @@
 Revision history for Perl-Critic-Deprecated.
 
+[1.119]  2013-10-29
+
+    No code changes.
+
+    Mention Miscellanea::RequireRcsKeywords in the documentation for
+    Perl::Critic::Deprecated.  Fixes RT #89840.  Thanks Petr Pisar.
+
 [1.118]  2013-10-25
 
     Moved over Perl::Critic::Policy::Miscellanea::RequireRcsKeywords from

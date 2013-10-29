@@ -1,5 +1,5 @@
 {
-   "abstract" : "Policies and modules that were formally included with Perl::Critic itself, but which have been superseded by others.",
+   "abstract" : "Policies and modules that were formerly included with Perl::Critic itself, but which have been superseded by others.",
    "author" : [
       "Elliot Shank <perl@galumph.com>"
    ],
@@ -41,23 +41,23 @@
    "provides" : {
       "Perl::Critic::Deprecated" : {
          "file" : "lib/Perl/Critic/Deprecated.pm",
-         "version" : "1.118"
+         "version" : "1.119"
       },
       "Perl::Critic::Policy::Miscellanea::RequireRcsKeywords" : {
          "file" : "lib/Perl/Critic/Policy/Miscellanea/RequireRcsKeywords.pm",
-         "version" : "1.118"
+         "version" : "1.119"
       },
       "Perl::Critic::Policy::NamingConventions::ProhibitMixedCaseSubs" : {
          "file" : "lib/Perl/Critic/Policy/NamingConventions/ProhibitMixedCaseSubs.pm",
-         "version" : "1.118"
+         "version" : "1.119"
       },
       "Perl::Critic::Policy::NamingConventions::ProhibitMixedCaseVars" : {
          "file" : "lib/Perl/Critic/Policy/NamingConventions/ProhibitMixedCaseVars.pm",
-         "version" : "1.118"
+         "version" : "1.119"
       },
       "Perl::Critic::Utils::PPIRegexp" : {
          "file" : "lib/Perl/Critic/Utils/PPIRegexp.pm",
-         "version" : "1.118"
+         "version" : "1.119"
       }
    },
    "release_status" : "stable",
@@ -71,5 +71,5 @@
       },
       "x_MailingList" : "http://perlcritic.tigris.org/servlets/SummarizeList?listName=users"
    },
-   "version" : "1.118"
+   "version" : "1.119"
 }

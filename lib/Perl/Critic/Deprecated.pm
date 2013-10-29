@@ -1,7 +1,7 @@
 #      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/distributions/Perl-Critic-Deprecated/lib/Perl/Critic/Deprecated.pm $
-#     $Date: 2013-10-25 16:42:50 -0700 (Fri, 25 Oct 2013) $
+#     $Date: 2013-10-29 09:19:05 -0700 (Tue, 29 Oct 2013) $
 #   $Author: thaljef $
-# $Revision: 4202 $
+# $Revision: 4216 $
 
 package Perl::Critic::Deprecated;
 
@@ -10,7 +10,7 @@ use 5.006001;
 use strict;
 use warnings;
 
-our $VERSION = '1.118';
+our $VERSION = '1.119';
 
 1; # Magic true value required at end of module
 
@@ -20,7 +20,7 @@ __END__
 
 =head1 NAME
 
-Perl::Critic::Deprecated - Policies and modules that were formally included with Perl::Critic itself, but which have been superseded by others.
+Perl::Critic::Deprecated - Policies and modules that were formerly included with Perl::Critic itself, but which have been superseded by others.
 
 =head1 AFFILIATION
 
@@ -32,7 +32,7 @@ announcing their participation in this grouping.
 
 =head1 VERSION
 
-This document describes Perl::Critic::Deprecated version 1.118.
+This document describes Perl::Critic::Deprecated version 1.119.
 
 
 =head1 SYNOPSIS
@@ -58,6 +58,10 @@ Write C<$my_variable = 42> instead of C<$MyVariable = 42>.  [Default severity 1]
 
 Write C<sub my_function{}> instead of C<sub MyFunction{}>.  [Default severity 1]
 
+
+=item L<Perl::Critic::Policy::Miscellanea::RequireRcsKeywords|Perl::Critic::Policy::Miscellanea::RequireRcsKeywords>
+
+Put source-control keywords in every file.  [Default severity 2]
 
 =back
 

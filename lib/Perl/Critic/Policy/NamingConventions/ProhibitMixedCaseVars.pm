@@ -1,8 +1,8 @@
 ##############################################################################
 #      $URL: http://perlcritic.tigris.org/svn/perlcritic/trunk/distributions/Perl-Critic-Deprecated/lib/Perl/Critic/Policy/NamingConventions/ProhibitMixedCaseVars.pm $
-#     $Date: 2013-10-25 16:42:50 -0700 (Fri, 25 Oct 2013) $
+#     $Date: 2013-10-29 09:11:44 -0700 (Tue, 29 Oct 2013) $
 #   $Author: thaljef $
-# $Revision: 4202 $
+# $Revision: 4214 $
 ##############################################################################
 
 package Perl::Critic::Policy::NamingConventions::ProhibitMixedCaseVars;
@@ -17,7 +17,7 @@ use Perl::Critic::Utils qw{ :severities };
 
 use base 'Perl::Critic::Policy';
 
-our $VERSION = '1.118';
+our $VERSION = '1.119';
 
 #-----------------------------------------------------------------------------
 

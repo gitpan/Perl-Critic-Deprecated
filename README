@@ -1,5 +1,5 @@
 NAME
-    Perl::Critic::Deprecated - Policies and modules that were formally
+    Perl::Critic::Deprecated - Policies and modules that were formerly
     included with Perl::Critic itself, but which have been superseded by
     others.
 
@@ -10,7 +10,7 @@ AFFILIATION
     "AFFILIATION" section announcing their participation in this grouping.
 
 VERSION
-    This document describes Perl::Critic::Deprecated version 1.118.
+    This document describes Perl::Critic::Deprecated version 1.119.
 
 SYNOPSIS
     Some Perl::Critic policies and modules have had their functionality
@@ -27,6 +27,9 @@ DESCRIPTION
     Perl::Critic::Policy::NamingConventions::ProhibitMixedCaseVars
         Write "sub my_function{}" instead of "sub MyFunction{}". [Default
         severity 1]
+
+    Perl::Critic::Policy::Miscellanea::RequireRcsKeywords
+        Put source-control keywords in every file. [Default severity 2]
 
 INTERFACE
     None. This is nothing but documentation.
